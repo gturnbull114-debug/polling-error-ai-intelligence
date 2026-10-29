@@ -1,0 +1,34 @@
+========================================================
+   AI Polling Intelligence Agentic System -- Pipeline   
+========================================================
+[1/4] Orchestrator: Ingesting 3 raw poll records...
+      [OK] NormalizerAgent: Successfully normalized 3 polls.
+      [OK] ModelerAgent: Consensus modeled:
+        * Candidate A: 48.17%
+        * Candidate B: 48.9%
+        * Leader: Candidate B (Spread: 0.73%)
+        * Outliers Flagged: 1
+      [OK] ExplainerAgent: Causal ledger and audit brief generated.
+
+--------------------------------------------------------
+[!] HUMAN-IN-THE-LOOP CHECKPOINT TRIGGERED
+  Reason: Significant pollster outlier divergence detected (>3.5%).
+--------------------------------------------------------
+  * Pollster: Civic Pulse Online (Poll ID: POLL-002)
+    Divergence: 3.5% | Frame: Registered Voters (RV) | Mode: Online Panel
+  [i] Non-interactive run: Human checkpoint recorded as Verified in Batch Mode.
+
+========================================================
+[OK] Pipeline Complete! Final dossier saved to: evidence\output_brief.md
+========================================================
+
+Test Execution Verification:
+Ran 7 tests in 0.004s:
+test_calculate_theoretical_moe ... ok
+test_divergence ... ok
+test_explainer_agent_triggers_checkpoint ... ok
+test_full_pipeline_run ... ok
+test_modeler_agent_outlier_detection ... ok
+test_normalizer_agent ... ok
+test_weighted_average ... ok
+Result: ALL TESTS PASSED (100% SUCCESS)

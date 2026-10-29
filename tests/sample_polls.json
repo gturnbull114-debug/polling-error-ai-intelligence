@@ -1,0 +1,38 @@
+[
+  {
+    "poll_id": "POLL-001",
+    "pollster": "National Metric Research",
+    "field_date_end": "2026-10-20",
+    "sample_size": 1200,
+    "sample_frame": "Likely Voters (LV)",
+    "mode": "Live Phone + SMS",
+    "candidate_a_share": 49.2,
+    "candidate_b_share": 47.8,
+    "undecided_share": 3.0,
+    "margin_of_error": 2.8
+  },
+  {
+    "poll_id": "POLL-002",
+    "pollster": "Civic Pulse Online",
+    "field_date_end": "2026-10-22",
+    "sample_size": 850,
+    "sample_frame": "Registered Voters (RV)",
+    "mode": "Online Panel",
+    "candidate_a_share": 45.1,
+    "candidate_b_share": 52.4,
+    "undecided_share": 2.5,
+    "margin_of_error": 3.4
+  },
+  {
+    "poll_id": "POLL-003",
+    "pollster": "Public Opinion Daily",
+    "field_date_end": "2026-10-24",
+    "sample_size": 1100,
+    "sample_frame": "Likely Voters (LV)",
+    "mode": "Mixed Mode (IVR + Online)",
+    "candidate_a_share": 48.8,
+    "candidate_b_share": 48.1,
+    "undecided_share": 3.1,
+    "margin_of_error": 3.0
+  }
+]

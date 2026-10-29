@@ -1,0 +1,9 @@
+Student Name: Graham Turnbull
+Student Number: 200679442
+Course: LIAI 1001 - Strategy and Change: Agentic AI Solution Assignment
+Program: Artificial Intelligence Leadership and Management Program
+Institution: Georgian College
+Instructor: Prof. Evandro Barros
+Date: October 2026
+Project Title: Polling Error (AI Polling Intelligence Agentic System)
+Program Name: "Polling Error"
