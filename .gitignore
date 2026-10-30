@@ -83,3 +83,4 @@ data/processed/*
 scratch/
 tmp/
 temp/
+*.zip
