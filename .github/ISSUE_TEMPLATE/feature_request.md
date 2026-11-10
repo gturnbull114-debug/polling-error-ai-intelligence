@@ -1,5 +1,5 @@
 ---
-name: Agent Capability / Feature Request
+name: PollBot analyze and breakdown polling data
 about: Suggest a new agent capability, analytical tool, or workflow enhancement
 title: "[FEATURE] "
 labels: enhancement

@@ -381,16 +381,23 @@ Assignement LIAI 1001/
 
 ## 5. How to Run the Prototype
 
-### 5.0 Interactive Web Dashboard & PDF Ingestion Engine ("Polling Error" Tryout)
-Try out the complete **"Polling Error"** multi-agent analytical system in your browser with client-side PDF reading, dynamic poll ingestion, and live agent telemetry:
+### 5.0 Full-Stack Website, Multi-Agent REST API & PDF Ingestion Engine ("Polling Error" Web Portal)
+Launch the complete **"Polling Error"** multi-agent website and REST API backend in your browser:
 
 ```powershell
-# Launch local web server (already active on port 8000)
+# Launch the full-stack Python Multi-Agent Web Server & API (recommended)
+python -m src.web.server --port 8000
+
+# Or serve as a static site
 python -m http.server 8000
 ```
 Open your browser at: **[http://localhost:8000/](http://localhost:8000/)** (or open [`index.html`](file:///c:/Users/gturn/OneDrive/Assignement%20LIAI%201001/index.html) directly).
 
-**Core Capabilities:**
+**Core Website & API Capabilities:**
+- **Full-Stack Multi-Agent REST API ([`src/web/server.py`](file:///c:/Users/gturn/OneDrive/Assignement%20LIAI%201001/src/web/server.py)):** Connects the web interface to all 9 autonomous agents via `/api/status`, `/api/pipeline/run`, `/api/hitl/decision`, `/api/pollbot/chat`, `/api/statbot/categorize`, `/api/sequential/run`, `/api/collaborate/run`, and `/api/prompter/validate`.
+- **Interactive 9-Agent Architecture Roster (`#agentRosterSection`):** Filter and inspect all 9 agents from [`AGENTS.md`](file:///c:/Users/gturn/OneDrive/Assignement%20LIAI%201001/AGENTS.md) (`OrchestratorAgent`, `NormalizerAgent`, `ModelerAgent`, `ExplainerAgent`, `HumanAuditor`, `PollBot`, `StatBot`, `Collaborative Coordinator`, and `PollingErrorPrompter`) with one-click agent launch controls.
+- **Multi-Poll Bayesian Consensus Aggregator & Interactive HITL Gatekeeper (`#multiPollPipelineSection`):** Execute the 5-stage pipeline across concurrent polls (`POLL-001`, `POLL-002`, `POLL-003`), inspect `POLL-002` outlier divergence ($>3.5\%$), and issue a cryptographically signed SHA-256 Human Supervisor decision (`APPROVED_BY_HUMAN`, `APPROVED_WITH_OVERRIDE`, or `REJECTED_BY_HUMAN`).
+- **Interactive Handoff Reaffirmation Gate (`yes`/`no` Control):** Test both confirmed (`yes`) and declined (`no`) transfers between PollBot and StatBot in the Live Multi-Agent Console.
 - **Client-Side PDF Reading & Text Extraction:** Drag & drop any polling report (`.pdf`), survey memo, or academic brief. Powered by Mozilla's PDF.js with offline stream fallback.
 - **Domain Relevance Guardrail:** Automatically evaluates document text against polling, survey, and election keywords. If non-polling content is uploaded, the system immediately halts processing and outputs `"Please provide relevant information"` without altering model weights.
 - **Automated Metric Extraction:** Discovers pollster identity, candidate shares, undecided %, sample size $N$, margin of error, and methodology frames directly from PDF content.

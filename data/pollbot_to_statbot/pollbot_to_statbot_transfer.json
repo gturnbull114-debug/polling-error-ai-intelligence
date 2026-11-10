@@ -1,8 +1,8 @@
 {
-  "transfer_id": "TRANS-20261029-231404",
+  "transfer_id": "TRANS-20261110-204437",
   "source_agent": "PollBot",
   "target_agent": "StatBot",
-  "timestamp": "2026-10-29T23:14:04.769691+00:00",
+  "timestamp": "2026-11-10T20:44:37.371182+00:00",
   "status": "READY_FOR_CATEGORIZATION",
   "user_reaffirmed": true,
   "dataset_reference": "PollBot Intelligence Transfer",
@@ -10,18 +10,35 @@
     "model": "claude-haiku-4-5-20251001",
     "serpapi_grounding": true,
     "confidence_score": 0.92,
-    "reaffirmation_confirmed_at": "2026-10-29T23:14:04.769691+00:00"
+    "reaffirmation_confirmed_at": "2026-11-10T20:44:37.371182+00:00"
   },
   "content": {
-    "summary": "Synthesized polling intelligence from 3 polls in sample_polls.json",
+    "summary": "Qualitative analysis extracted from alberta_equalization_referendum_audit.md",
     "key_findings": [
-      "National Metric Research: Candidate A 49.2%, Candidate B 47.8%, N=1200 (Likely Voters (LV)), Mode: Live Phone + SMS, MOE: \u00b12.8%",
-      "Civic Pulse Online: Candidate A 45.1%, Candidate B 52.4%, N=850 (Registered Voters (RV)), Mode: Online Panel, MOE: \u00b13.4%",
-      "Public Opinion Daily: Candidate A 48.8%, Candidate B 48.1%, N=1100 (Likely Voters (LV)), Mode: Mixed Mode (IVR + Online), MOE: \u00b13.0%"
+      "Course:** LIAI 1001 \u2013 Strategy and Change",
+      "Author:** Graham Turnbull (Student ID: 200679442)",
+      "System:** AI Polling Intelligence Agentic System (PollBot Analyst)",
+      "Subject:** Viewpoint Alberta Survey (Leger / U of A) vs. Certified Referendum Results",
+      "**Pinpoint Decided-Voter Accuracy:**",
+      "**Key Demographic Cleavages:**",
+      "**Age Gradient:** Senior voters (65+) showed the strongest support at **58% Yes**.",
+      "**Regional Core:** Central (**57% Yes**) and Rural Alberta (**48% Yes**) were the leading geographic bases.",
+      "**Gender Gap:** Identified a 13-point gender split (**51% Men Yes** vs. **38% Women Yes**).",
+      "**Turnout Salience Advantage:**",
+      "**The \"Divided Electorate\" Narrative Fallacy:**",
+      "**Failure of the Traditional \"Status Quo\" Rule:**",
+      "**Under-Emphasizing the Likely Voter Screen:**",
+      "**Elevated Blank & Declined Ballots (49,401 Ballots / 4.52%):**",
+      "**Municipal Election Concurrency:**",
+      "**Separate Math from Narrative:** Never mistake high undecision in raw polling for a 50/50 race when decided voter ratios exhibit a 24-point lead.",
+      "**Prioritize Likely-Voter Turnout Screens:** General population panels dilute motivated voting blocs, especially on high-salience constitutional or ballot measures.",
+      "**Track the Protest Option:** In concurrent referendums, evaluate blank and declined ballots as a distinct exit vector for dissatisfied or uncommitted electors."
     ],
     "suggested_categories": [
       "Demographic Factors",
-      "Methodology & Errors"
+      "Geographic Factors",
+      "Methodology & Errors",
+      "Turnout & Motivation"
     ]
   }
 }

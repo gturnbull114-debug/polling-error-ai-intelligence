@@ -619,7 +619,7 @@ class StatBot:
 
             return reply
         except Exception:
-            return UNABLE_RESPONSE
+            return self._categorize_offline(content_text, categories, output_format)
 
     def _categorize_offline(
         self,

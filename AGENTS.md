@@ -261,20 +261,27 @@ The multi-agent system comprises four specialized autonomous agents plus one man
   │   ├── tools/                   # Shared utility tools & statistical formulas
   │   │   ├── __init__.py
   │   │   ├── math_utils.py
+  │   │   ├── prompter.py          # Polling Error Prompter & prompt engineering engine
   │   │   ├── search_tool.py       # SerpApi real-time web research tool
   │   │   └── ledger.py            # IntelligenceLedger (non-repetition & novelty tracking)
+  │   ├── web/                     # Full-stack web server & multi-agent REST API
+  │   │   ├── __init__.py
+  │   │   └── server.py            # HTTP server & API controller for index.html
   │   └── __init__.py
   ├── tests/                       # Unit and integration tests
   │   ├── __init__.py
   │   ├── sample_polls.json        # Test polling input fixtures
   │   ├── test_basic.py            # End-to-end pipeline and baseline agent tests
-  │   ├── test_pollbot.py          # PollBot agent tests (18 tests)
-  │   ├── test_statbot.py          # StatBot agent tests (17 tests)
-  │   ├── test_collaboration.py    # Non-repetition & collaborative loop tests (9 tests)
-  │   └── test_sequential_pipeline.py # Sequential pipeline coordination tests (7 tests)
+  │   ├── test_pollbot.py          # PollBot agent tests
+  │   ├── test_statbot.py          # StatBot agent tests
+  │   ├── test_collaboration.py    # Non-repetition & collaborative loop tests
+  │   ├── test_sequential_pipeline.py # Sequential pipeline coordination tests
+  │   ├── test_prompter.py         # Polling Error Prompter tests
+  │   └── test_web_server.py       # Full-stack web server & REST API tests (8 tests)
   ├── .env.example                 # Documented template for configuration
   ├── .gitignore                   # Exclusions for virtualenvs, secrets, caches
   ├── AGENTS.md                    # Agent instructions and system specifications
+  ├── index.html                   # Interactive web portal & multi-agent dashboard
   ├── sequential_pipeline_report.pdf # Publication-ready sequential pipeline PDF
   ├── collaborative_intelligence_report.pdf # Publication-ready collaborative PDF
   ├── statbot_categorized_findings.pdf # Publication-ready StatBot PDF
@@ -310,6 +317,9 @@ Copy-Item .env.example .env
 
 ### 5.2 Running the Prototype
 ```powershell
+# Launch the full-stack website and 9-agent REST API server on port 8000
+python -m src.web.server --port 8000
+
 # Run the pipeline with default sample polling dataset
 python -m src.orchestrator.pipeline
 
@@ -367,8 +377,11 @@ python -m src.agents.collaborator --input docs/alberta_equalization_referendum_a
 
 ### 5.3 Testing & Quality Verification
 ```powershell
-# Run the complete test suite across all 73 automated tests
+# Run the complete test suite across all 91 automated tests
 python -m unittest discover tests -v
+
+# Run Web Server & REST API tests (8 tests)
+python -m unittest tests/test_web_server.py -v
 
 # Run Sequential Pipeline Coordination Pattern tests (7 tests)
 python -m unittest tests/test_sequential_pipeline.py -v

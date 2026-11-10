@@ -2,7 +2,7 @@
 **Program:** Polling Error (Multi-Agent Polling Intelligence System)  
 **Coordination Pattern:** Sequential Pipeline (PollBot First, then StatBot)  
 **Course:** LIAI 1001 – Strategy and Change (Georgian College)  
-**Timestamp:** 2026-10-29 23:14:07 UTC  
+**Timestamp:** 2026-11-10 20:44:37 UTC  
 **Dataset Reference:** PollBot Intelligence Transfer  
 
 ---
@@ -47,24 +47,39 @@
 ## Executive Summary & Non-Repetition Audit
 - **Coordination Pattern:** Sequential Pipeline (`PollBot` → `StatBot`)
 - **Execution Order:** Stage 1: PollBot (Primary Qualitative Reasoning) → Stage 2: Hand-Off Gate → Stage 3: StatBot (Taxonomy Structuring)
-- **Total Registered Unique Findings:** 15
-- **PollBot Contributions:** 3 qualitative facts & methodology observations
-- **StatBot Contributions:** 12 structured taxonomy & statistical gap points
+- **Total Registered Unique Findings:** 20
+- **PollBot Contributions:** 18 qualitative facts & methodology observations
+- **StatBot Contributions:** 2 structured taxonomy & statistical gap points
 - **Redundant / Repeated Statements Suppressed:** 0 (Enforced by IntelligenceLedger)
 
 ---
 
 ## Stage 1: PollBot Qualitative Analysis (First)
-*Synthesized polling intelligence from 3 polls in sample_polls.json*
+*Qualitative analysis extracted from alberta_equalization_referendum_audit.md*
 
-- National Metric Research: Candidate A 49.2%, Candidate B 47.8%, N=1200 (Likely Voters (LV)), Mode: Live Phone + SMS, MOE: ±2.8%
-- Civic Pulse Online: Candidate A 45.1%, Candidate B 52.4%, N=850 (Registered Voters (RV)), Mode: Online Panel, MOE: ±3.4%
-- Public Opinion Daily: Candidate A 48.8%, Candidate B 48.1%, N=1100 (Likely Voters (LV)), Mode: Mixed Mode (IVR + Online), MOE: ±3.0%
+- Course:** LIAI 1001 – Strategy and Change
+- Author:** Graham Turnbull (Student ID: 200679442)
+- System:** AI Polling Intelligence Agentic System (PollBot Analyst)
+- Subject:** Viewpoint Alberta Survey (Leger / U of A) vs. Certified Referendum Results
+- **Pinpoint Decided-Voter Accuracy:**
+- **Key Demographic Cleavages:**
+- **Age Gradient:** Senior voters (65+) showed the strongest support at **58% Yes**.
+- **Regional Core:** Central (**57% Yes**) and Rural Alberta (**48% Yes**) were the leading geographic bases.
+- **Gender Gap:** Identified a 13-point gender split (**51% Men Yes** vs. **38% Women Yes**).
+- **Turnout Salience Advantage:**
+- **The "Divided Electorate" Narrative Fallacy:**
+- **Failure of the Traditional "Status Quo" Rule:**
+- **Under-Emphasizing the Likely Voter Screen:**
+- **Elevated Blank & Declined Ballots (49,401 Ballots / 4.52%):**
+- **Municipal Election Concurrency:**
+- **Separate Math from Narrative:** Never mistake high undecision in raw polling for a 50/50 race when decided voter ratios exhibit a 24-point lead.
+- **Prioritize Likely-Voter Turnout Screens:** General population panels dilute motivated voting blocs, especially on high-salience constitutional or ballot measures.
+- **Track the Protest Option:** In concurrent referendums, evaluate blank and declined ballots as a distinct exit vector for dissatisfied or uncommitted electors.
 
 ---
 
 ## Stage 2: Pipeline Hand-off & User Reaffirmation Checkpoint
-- **Transfer ID:** `TRANS-20261029-231404`
+- **Transfer ID:** `TRANS-20261110-204437`
 - **Source Agent:** PollBot
 - **Target Agent:** StatBot
 - **User Reaffirmation Status:** `CONFIRMED (yes)`
@@ -76,23 +91,29 @@
 > **StatBot Mandate:** Grounded directly in PollBot results. Underlying numbers, percentages, and sample sizes strictly preserved without alteration.
 
 ### Demographic Factors
-- National Metric Research: Likely Voters (LV) sample frame
-- Civic Pulse Online: Registered Voters (RV) sample frame
-- Public Opinion Daily: Likely Voters (LV) sample frame
-- National Metric Research: N=1200
-- Civic Pulse Online: N=850
-- Public Opinion Daily: N=1100
+- System:** AI Polling Intelligence Agentic System (PollBot Analyst)
+- Pinpoint Decided-Voter Accuracy:
+- Key Demographic Cleavages:
+- Age Gradient:** Senior voters (65+) showed the strongest support at **58% Yes**.
+- Gender Gap:** Identified a 13-point gender split (**51% Men Yes** vs. **38% Women Yes**).
+- Turnout Salience Advantage:
+- Under-Emphasizing the Likely Voter Screen:
+- Separate Math from Narrative:** Never mistake high undecision in raw polling for a 50/50 race when decided voter ratios exhibit a 24-point lead.
+- Prioritize Likely-Voter Turnout Screens:** General population panels dilute motivated voting blocs, especially on high-salience constitutional or ballot measures.
+
+### Geographic Factors
+- Regional Core:** Central (**57% Yes**) and Rural Alberta (**48% Yes**) were the leading geographic bases.
 
 ### Methodology & Errors
-- National Metric Research: Mode = Live Phone + SMS, MOE: ±2.8%
-- Civic Pulse Online: Mode = Online Panel, MOE: ±3.4%
-- National Metric Research: Candidate A 49.2%, Candidate B 47.8%
-- Civic Pulse Online: Candidate A 45.1%, Candidate B 52.4%
-- Public Opinion Daily: Candidate A 48.8%, Candidate B 48.1%
+- Subject:** Viewpoint Alberta Survey (Leger / U of A) vs. Certified Referendum Results
+
+### Turnout & Motivation
+*(No specific data points mapped)*
 
 ### Identified Statistical Gaps & Cross-Tabulations
 > *StatBot isolated these gaps from PollBot's findings to highlight unmeasured sampling dimensions:*
-- [Gap] Sampling Frame Gap: Opt-in panel weighting models require voter file matching to isolate self-selection and non-response participation skew.
+- [Gap] Cross-Tabulation Pattern: High turnout salience among senior voters (65+) creates a potent mobilization asymmetry against low-salience youth cohorts.
+- [Gap] Methodological Coverage Gap: Rural geographic samples may be under-represented in pure online panel collection modes without phone/SMS calibration.
 
 
 ---

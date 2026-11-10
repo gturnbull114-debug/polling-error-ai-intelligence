@@ -1,0 +1,11 @@
+# ==============================================================================
+# Cloudflare Pages & Edge Functions Configuration
+# Program: "Polling Error" — AI Polling Intelligence Agentic System
+# Course: LIAI 1001 – Strategy and Change (Georgian College)
+# Student: Graham Turnbull (200679442)
+# ==============================================================================
+
+name = "polling-error-ai-intelligence"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "dist"
+

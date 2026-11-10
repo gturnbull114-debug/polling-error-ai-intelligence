@@ -84,3 +84,6 @@ scratch/
 tmp/
 temp/
 *.zip
+*.db
+*.sqlite
+*.sqlite3

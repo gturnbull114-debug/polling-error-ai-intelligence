@@ -462,7 +462,7 @@ class PollBot:
                     return IRRELEVANT_RESPONSE
                 return reply
             except Exception:
-                return UNAVAILABLE_RESPONSE
+                pass
 
         # Offline deterministic fallback analysis
         return (

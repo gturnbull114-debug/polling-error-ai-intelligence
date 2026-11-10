@@ -1,0 +1,152 @@
+[
+  {
+    "receipt_id": "HITL-CBCFB683",
+    "signature_sha256": "CBCFB68384D139E3",
+    "timestamp": "2026-11-10T19:14:50.654994+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-C42B15B2",
+    "signature_sha256": "C42B15B271CFE07E",
+    "timestamp": "2026-11-10T19:16:11.102969+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-1C42F3B6",
+    "signature_sha256": "1C42F3B6EBF62FC9",
+    "timestamp": "2026-11-10T19:16:11.168368+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_WITH_OVERRIDE",
+    "verdict_label": "Approved with Methodology Weight Override",
+    "notes": "Reviewed methodology and outlier divergence spread."
+  },
+  {
+    "receipt_id": "HITL-6B5B935E",
+    "signature_sha256": "6B5B935ED31FEF76",
+    "timestamp": "2026-11-10T19:18:55.816197+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-550B43EB",
+    "signature_sha256": "550B43EB080072B6",
+    "timestamp": "2026-11-10T19:18:55.877331+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_WITH_OVERRIDE",
+    "verdict_label": "Approved with Methodology Weight Override",
+    "notes": "Reviewed methodology and outlier divergence spread."
+  },
+  {
+    "receipt_id": "HITL-3CDC14D7",
+    "signature_sha256": "3CDC14D7070EA0CE",
+    "timestamp": "2026-11-10T19:30:46.202398+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-70337EBE",
+    "signature_sha256": "70337EBE235C8810",
+    "timestamp": "2026-11-10T19:30:46.251683+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_WITH_OVERRIDE",
+    "verdict_label": "Approved with Methodology Weight Override",
+    "notes": "Reviewed methodology and outlier divergence spread."
+  },
+  {
+    "receipt_id": "HITL-1E6CC471",
+    "signature_sha256": "1E6CC4714CC81029",
+    "timestamp": "2026-11-10T20:28:16.984613+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-AC887792",
+    "signature_sha256": "AC887792ECCFB507",
+    "timestamp": "2026-11-10T20:28:17.106756+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_WITH_OVERRIDE",
+    "verdict_label": "Approved with Methodology Weight Override",
+    "notes": "Reviewed methodology and outlier divergence spread."
+  },
+  {
+    "receipt_id": "HITL-23802B31",
+    "signature_sha256": "23802B31F246F62F",
+    "timestamp": "2026-11-10T20:33:42.027529+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-158811E0",
+    "signature_sha256": "158811E0D2FE4CA5",
+    "timestamp": "2026-11-10T20:33:42.075112+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_WITH_OVERRIDE",
+    "verdict_label": "Approved with Methodology Weight Override",
+    "notes": "Reviewed methodology and outlier divergence spread."
+  },
+  {
+    "receipt_id": "HITL-4A6875D9",
+    "signature_sha256": "4A6875D924E6B7B9",
+    "timestamp": "2026-11-10T20:43:36.696138+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-C1A5BEBF",
+    "signature_sha256": "C1A5BEBFA59A7B22",
+    "timestamp": "2026-11-10T20:43:36.853209+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_WITH_OVERRIDE",
+    "verdict_label": "Approved with Methodology Weight Override",
+    "notes": "Reviewed methodology and outlier divergence spread."
+  },
+  {
+    "receipt_id": "HITL-0A5813CB",
+    "signature_sha256": "0A5813CB0E71DE55",
+    "timestamp": "2026-11-10T20:44:36.423016+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_BY_HUMAN",
+    "verdict_label": "Publication Approved by Human Supervisor",
+    "notes": "Verified RV screen outlier."
+  },
+  {
+    "receipt_id": "HITL-E5787EC4",
+    "signature_sha256": "E5787EC4F2C529C1",
+    "timestamp": "2026-11-10T20:44:36.581424+00:00",
+    "supervisor": "Graham Turnbull (200679442)",
+    "poll_id": "POLL-002",
+    "status_code": "APPROVED_WITH_OVERRIDE",
+    "verdict_label": "Approved with Methodology Weight Override",
+    "notes": "Reviewed methodology and outlier divergence spread."
+  }
+]
